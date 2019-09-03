@@ -14,7 +14,7 @@
 		D442032A231E3641002B3A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4420328231E3641002B3A45 /* LaunchScreen.storyboard */; };
 		D442032D231E3641002B3A45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D442032C231E3641002B3A45 /* main.m */; };
 		D4420337231E3641002B3A45 /* FrameworkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4420336231E3641002B3A45 /* FrameworkDemoUITests.m */; };
-		D4420388231E4703002B3A45 /* mySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4420387231E4703002B3A45 /* mySDK.framework */; };
+		D442038E231E8CB3002B3A45 /* mySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D442038D231E8CB3002B3A45 /* mySDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +42,7 @@
 		D4420336231E3641002B3A45 /* FrameworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkDemoUITests.m; sourceTree = "<group>"; };
 		D4420338231E3641002B3A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4420387231E4703002B3A45 /* mySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = mySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D442038D231E8CB3002B3A45 /* mySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = mySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4420388231E4703002B3A45 /* mySDK.framework in Frameworks */,
+				D442038E231E8CB3002B3A45 /* mySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +119,7 @@
 		D4420386231E4703002B3A45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D442038D231E8CB3002B3A45 /* mySDK.framework */,
 				D4420387231E4703002B3A45 /* mySDK.framework */,
 			);
 			name = Frameworks;
